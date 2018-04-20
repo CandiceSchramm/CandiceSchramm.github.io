@@ -3,10 +3,10 @@ body {
     margin:0px
 }
 nav {
-    padding: 28px;
+    height: 56px;
     background-color: lightcoral;
     border-style: solid;
-    border-bottom-width: 5px;
+    border-bottom-width: 2px;
     border-bottom-color: black;
 }
 .nametag {
@@ -52,7 +52,7 @@ h1{
     padding: 28px;
     background-color: lightcoral;
     border-style: solid;
-    border-top-width: 5px;
+    border-top-width: 2px;
     border-top-color: black;
 }
 h3{
@@ -79,11 +79,24 @@ margin:15px;
 background-color: lightcoral;
 height:20px;
 }
-.tag {
+
+.portfolio-item {
+    margin: 19px;;
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.image-tag {
     background-color:lightcoral;
-    height: 15px;
-    width: 150px;
     position: absolute;
+    width: 200px; 
+    padding:15px 0px 15px 0px;
+    text-align: center;
+    top: 40%;
 
 }
 
