@@ -79,4 +79,11 @@ margin:15px;
 background-color: lightcoral;
 height:20px;
 }
+.tag {
+    background-color:lightcoral;
+    height: 15px;
+    width: 150px;
+    position: absolute;
+
+}
 
