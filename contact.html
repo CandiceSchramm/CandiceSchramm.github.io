@@ -7,21 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Poiret+One" rel="stylesheet">
+
 </head>
 <body>
     <nav>
         <section class= "nametag">
-            <h1>Candice Schramm</h1>
+            <h1 ID= "name-font">Candice Schramm</h1>
         </section>
-        <ul> 
-            <li class= "menu-item">About</li>
-            <li class= "menu-item"> Portfolio</li>
-            <li class= "menu-item">Contact</li>
-        </ul>
+        <ul class= "menu"> 
+            <li class= "menu-item"><a href="contact.html">Contact</a></li>
+            <li class= "menu-item"><a href="portfolio.html">Portfolio</a></li>
+            <li class= "menu-item"><a href="index.html">About</a></li>
+            </ul>
     </nav>  
     <section class= "background">
-        <section class="box">
-            <div>
+        <section class="main-content-box">
+            <div class= "main-content-container">
                 <h1>
                     Contact
                 </h1>  
@@ -30,7 +32,7 @@
                     <form action="/action_page.php">
                     First name:
                     <br>
-                    <input class ="text-box" type="text" name="firstname">
+                    <input class ="email-text-box" type="text" name="firstname">
                     <br>
                     <br>
                     Last name:
@@ -43,7 +45,7 @@
                     <input class ="message" type="text" name="email_message">
                     <br>
                     <br>
-                    <input class ="button" type="submit" value="Submit">
+                    <input class ="submit-button" type="submit" value="Submit">
                 </form> 
             </div>
         </section>
