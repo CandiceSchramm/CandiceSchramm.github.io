@@ -12,14 +12,15 @@ nav {
 .nametag {
     background-color: white;
     position: absolute;
+    padding: 20px;
     top: 0%;
-    right:70%;
+    right: 1065px;
 }
 ul {
     list-style-type: none;
     float:right;
     position:absolute;
-    right: 20%;
+    right: 240px;
     top: 1%
 }
 .menu-item {
@@ -28,25 +29,20 @@ ul {
     float: right;
 }
 .background {
-    padding: 2% 10% 1% 10%;
-    background-color: lightgray;
-    height: 500px;
+    padding: 50px 150px 50px 150px;
+    background-image: url("../images/background-image-2x.png")
+
 }
-.box{
+.box {
     margin: 1% 5% 0% 5%;
     background-color: whitesmoke;
     padding: 1%;
     height: 400px;
     width: 960px;
-
 }
-.lefty{
+.lefty {
     float:left;
     margin-right: 10px;
-}
-h1{
-    font-weight: 1000;
-    margin:20px;
 }
 .footer {
     padding: 28px;
@@ -54,9 +50,6 @@ h1{
     border-style: solid;
     border-top-width: 2px;
     border-top-color: black;
-}
-h3{
-    margin-left:20px;
 }
 form {
     margin-left: 20px;
@@ -66,20 +59,18 @@ form {
     height:20px;
 }
 .line {
-height:1px;
-background-color:black;
-margin:15px;
+    height: 1px;
+    background-color: black;
+    margin:15px;
 }
-
 .message {
-    height:150px;
-    width:500px;
+    height: 150px;
+    width: 500px;
 }
 .button {
-background-color: lightcoral;
-height:20px;
+    background-color: lightcoral;
+    height: 20px;
 }
-
 .portfolio-item {
     margin: 19px;;
     float: left;
@@ -89,7 +80,6 @@ height:20px;
     display: block;
     clear: both;
 }
-
 .image-tag {
     background-color:lightcoral;
     position: absolute;
@@ -97,6 +87,5 @@ height:20px;
     padding:15px 0px 15px 0px;
     text-align: center;
     top: 40%;
-
 }
 
